@@ -46,3 +46,5 @@ Thumbs.db
 .verification*
 security_report_*.json
 verification_report_*.json
+quick_scan_results_*.json
+bruteforce_report_*.json

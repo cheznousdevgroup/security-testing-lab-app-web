@@ -1,2 +1,57 @@
-requests==2.31.0 
-beautifulsoup4==4.12.2 
+# ===================================
+# Requirements minimales (OBLIGATOIRES)
+# ===================================
+requests==2.31.0
+beautifulsoup4==4.12.2
+colorama==0.4.6
+
+# ===================================
+# Requirements étendues (RECOMMANDÉES)
+# ===================================
+# Pour la génération de données réalistes
+faker==19.12.0
+
+# Pour le support des proxies SOCKS
+PySocks==1.7.1
+
+# Pour les dates et timestamps
+python-dateutil==2.8.2
+
+# ===================================
+# Requirements optionnelles
+# ===================================
+# Pour l'anonymisation via Tor
+stem==1.8.2
+
+# Pour le parsing HTML avancé
+lxml==4.9.3
+html5lib==1.1
+
+# Pour les tests SSL/TLS
+pyOpenSSL==23.3.0
+certifi==2023.11.17
+
+# Pour la génération de mots de passe
+passlib==1.7.4
+
+# ===================================
+# Pour le développement uniquement
+# ===================================
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
+
+# ===================================
+# Notes d'installation
+# ===================================
+# Installation minimale:
+# pip install requests beautifulsoup4 colorama
+
+# Installation complète:
+# pip install -r requirements.txt
+
+# Installation avec Tor:
+# pip install -r requirements.txt stem
+
+# Si vous avez des erreurs SSL:
+# pip install --upgrade certifi
