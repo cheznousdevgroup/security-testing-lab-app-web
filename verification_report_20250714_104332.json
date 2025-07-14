@@ -1,0 +1,18 @@
+{
+    "original_report": {
+        "vulnerabilities": [],
+        "info": [
+            "Endpoint de login trouvé: /login"
+        ],
+        "warnings": [
+            "En-tête manquant: X-Frame-Options (Protection contre le clickjacking)",
+            "En-tête manquant: X-Content-Type-Options (Protection contre le MIME sniffing)",
+            "En-tête manquant: X-XSS-Protection (Protection XSS (obsolète mais encore utile))",
+            "En-tête manquant: Strict-Transport-Security (Force HTTPS)",
+            "En-tête manquant: Content-Security-Policy (Politique de sécurité du contenu)",
+            "En-tête manquant: Referrer-Policy (Contrôle des informations de référent)"
+        ]
+    },
+    "verification_date": "2025-07-14 10:43:32",
+    "target_url": "https://riskmanager.olea-extranet.com"
+}

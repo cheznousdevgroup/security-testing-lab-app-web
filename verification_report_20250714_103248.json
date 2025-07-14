@@ -1,0 +1,59 @@
+{
+    "original_report": {
+        "vulnerabilities": [
+            "Authentification faible: admin:admin sur /admin",
+            "Authentification faible: admin:password sur /admin",
+            "Authentification faible: admin:123456 sur /admin",
+            "Authentification faible: root:root sur /admin",
+            "Authentification faible: test:test sur /admin",
+            "Authentification faible: demo:demo sur /admin",
+            "Authentification faible: admin:admin sur /user/login",
+            "Authentification faible: admin:password sur /user/login",
+            "Authentification faible: admin:123456 sur /user/login",
+            "Authentification faible: root:root sur /user/login",
+            "Authentification faible: test:test sur /user/login",
+            "Authentification faible: demo:demo sur /user/login",
+            "Authentification faible: admin:admin sur /wp-login.php",
+            "Authentification faible: admin:password sur /wp-login.php",
+            "Authentification faible: admin:123456 sur /wp-login.php",
+            "Authentification faible: root:root sur /wp-login.php",
+            "Authentification faible: test:test sur /wp-login.php",
+            "Authentification faible: demo:demo sur /wp-login.php",
+            "Fichier sensible accessible: .git/config",
+            "Fichier sensible accessible: .env",
+            "Fichier sensible accessible: wp-config.php",
+            "Fichier sensible accessible: config.php",
+            "Fichier sensible accessible: .htaccess",
+            "Fichier sensible accessible: web.config",
+            "Fichier sensible accessible: phpinfo.php",
+            "Fichier sensible accessible: info.php",
+            "Fichier sensible accessible: .DS_Store",
+            "Fichier sensible accessible: robots.txt",
+            "Fichier sensible accessible: sitemap.xml",
+            "Fichier sensible accessible: backup.sql",
+            "Fichier sensible accessible: database.sql",
+            "Fichier sensible accessible: .bak",
+            "Fichier sensible accessible: .old",
+            "Fichier sensible accessible: .swp",
+            "CORS mal configuré: Accepte l'origine http://evil.com",
+            "CORS mal configuré: Accepte l'origine null",
+            "CORS mal configuré: Accepte l'origine https://attacker.com"
+        ],
+        "info": [
+            "Endpoint de login trouvé: /login",
+            "Endpoint de login trouvé: /admin",
+            "Endpoint de login trouvé: /user/login",
+            "Endpoint de login trouvé: /wp-login.php"
+        ],
+        "warnings": [
+            "En-tête manquant: X-Frame-Options (Protection contre le clickjacking)",
+            "En-tête manquant: X-Content-Type-Options (Protection contre le MIME sniffing)",
+            "En-tête manquant: X-XSS-Protection (Protection XSS (obsolète mais encore utile))",
+            "En-tête manquant: Strict-Transport-Security (Force HTTPS)",
+            "En-tête manquant: Content-Security-Policy (Politique de sécurité du contenu)",
+            "En-tête manquant: Referrer-Policy (Contrôle des informations de référent)"
+        ]
+    },
+    "verification_date": "2025-07-14 10:32:48",
+    "target_url": "http://localhost:4200"
+}

@@ -1,0 +1,14 @@
+{
+    "vulnerabilities": [],
+    "info": [
+        "Endpoint de login trouv\u00e9: /login"
+    ],
+    "warnings": [
+        "En-t\u00eate manquant: X-Frame-Options (Protection contre le clickjacking)",
+        "En-t\u00eate manquant: X-Content-Type-Options (Protection contre le MIME sniffing)",
+        "En-t\u00eate manquant: X-XSS-Protection (Protection XSS (obsol\u00e8te mais encore utile))",
+        "En-t\u00eate manquant: Strict-Transport-Security (Force HTTPS)",
+        "En-t\u00eate manquant: Content-Security-Policy (Politique de s\u00e9curit\u00e9 du contenu)",
+        "En-t\u00eate manquant: Referrer-Policy (Contr\u00f4le des informations de r\u00e9f\u00e9rent)"
+    ]
+}
